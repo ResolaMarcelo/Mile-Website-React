@@ -163,6 +163,9 @@ function App() {
 
 
 <div className="section-faq">
+
+  <h3>Faq</h3>
+  
 <div class="wrapper">
   
     <div class="parent-tab">
@@ -187,37 +190,7 @@ function App() {
       </div>
     </div>
    
-    <div class="parent-tab tab-3">
-    <input type="radio" name='tab' id='tab-3' />
-      <label for="tab-3" class="tab-3">
-        <span>Accordion Heading Three</span>
-        <div class="icon"><i class="fas fa-plus"></i></div>
-      </label>
-      <div class="content">
-       
-        <div class="child-tab">
-        <input type="radio" name='tab' id='tab-4' />
-          <label for="tab-4">
-            <span>Sub Heading One</span>
-            <div class="icon"><i class="fas fa-plus"></i></div>
-          </label>
-          <div class="sub-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
-          </div>
-        </div>
-       
-        <div class="child-tab">
-        <input type="radio" name='tab' id='tab-5' />
-          <label for="tab-5">
-            <span>Sub Heading Two</span>
-            <div class="icon"><i class="fas fa-plus"></i></div>
-          </label>
-          <div class="sub-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   
     <div class="parent-tab">
     <input type="radio" name='tab' id='tab-6' />
