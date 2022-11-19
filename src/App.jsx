@@ -171,37 +171,136 @@ function App() {
     <div class="parent-tab">
       <input type="radio" name='tab' id='tab-1' />
       <label for="tab-1">
-        <span>Accordion Heading One</span>
+        <span>Where can I stake my Mile High Ape?</span>
         <div class="icon"><i class="fa-sharp fa-solid fa-plus"></i></div>
       </label>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+        <p>This is the most up to date link! <a href="">https://staking.milehighapes.io/</a></p>
       </div>
     </div>
    
     <div class="parent-tab">
     <input type="radio" name='tab' id='tab-2' />
       <label for="tab-2">
-        <span>Accordion Heading Two</span>
+        <span>What will I be able to do with my $MILES?</span>
         <div class="icon"><i class="fas fa-plus"></i></div>
       </label>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+        <p>You will be able to turn your $miles into actual flight miles! </p>
       </div>
     </div>
    
    
   
     <div class="parent-tab">
-    <input type="radio" name='tab' id='tab-6' />
-      <label for="tab-6">
-        <span>Accordion Heading Four</span>
+    <input type="radio" name='tab' id='tab-3' />
+      <label for="tab-3">
+        <span>What are the pros of holding a og MHAC ape?</span>
         <div class="icon"><i class="fa-solid fa-plus"></i></div>
       </label>
       <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+        <p>There will be different staking emissions for MHAC vs Runawway apes! <br />
+The rates are as follows <br />
+x <br />
+x <br />
+x <br />
+x</p>
       </div>
     </div>
+
+
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-4' />
+      <label for="tab-4">
+        <span>What airlines do my $miles to Miles work at?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>Private and commercial airlines! </p>
+      </div>
+    </div>
+   
+
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-5' />
+      <label for="tab-5">
+        <span>Can I use my $miles for giveaways?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>Yes! Make sure your tuned in to the discord for all of the active giveaways!</p>
+      </div>
+    </div>
+   
+
+
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-6' />
+      <label for="tab-6">
+        <span>Where can I purchase an OG Mile High Ape (MHAC)?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>You can purchase one here on secondary: <a href="https://magiceden.io/marketplace/mile_high_ape_club">https://magiceden.io/marketplace/mile_high_ape_club</a></p>
+      </div>
+    </div>
+   
+
+
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-7' />
+      <label for="tab-7">
+        <span>Where can I purchase a Runaway ape?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>You can purchase one here on secondary: <a href="https://magiceden.io/marketplace/runaway_apes">https://magiceden.io/marketplace/runaway_apes</a> </p>
+      </div>
+    </div>
+   
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-8' />
+      <label for="tab-8">
+        <span>When is $miles to miles coming?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+       <p>The team is working really hard to get this utility, we are looking at spring/summer of 2023</p>
+             </div>
+    </div>
+   
+
+
+    <div class="parent-tab">
+    <input type="radio" name='tab' id='tab-9' />
+      <label for="tab-9">
+        <span> I purchased a runaway ape or OG MHAC ape, how do I stay up to date? </span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+       <p>Easy! you can either join our discord or you can follow us on twitter!</p>
+            </div>
+    </div>
+   
+
+
+  
+   
+
+
+
+
+
+
+
+
+
+
   </div>
 </div>
 
