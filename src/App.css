@@ -21,6 +21,8 @@ html  {
  
 }
 
+
+
 body    {
     margin: 0;
     padding: 0;
@@ -40,6 +42,9 @@ span  {
   justify-content: center;
   font-family: mona-sans;
 }
+
+
+
 
 *   {
   margin: 0;
@@ -201,7 +206,7 @@ header  {
 .navbar   {
   position: absolute;
   padding: 50px;
-  
+  z-index: 20;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -241,7 +246,9 @@ header  {
 
 
 
-
+.scroll   {
+  margin-top: 1em;
+}
 
 
 /* SCROLL */ 
@@ -471,8 +478,8 @@ header  {
   background: rgb(0,123,255,0.3);
 }
 .wrapper{
-  max-width: 800px;
-  padding: 0 20px;
+  max-width: 90vw;
+
 }
 .wrapper .parent-tab,
 .wrapper .child-tab{
@@ -492,6 +499,7 @@ header  {
   position: relative;
   z-index: 99;
   transition: all 0.3s ease;
+  border-bottom: 1px solid white;
 }
 .wrapper .parent-tab label:hover{
   background: black;
