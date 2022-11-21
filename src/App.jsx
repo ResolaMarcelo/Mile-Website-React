@@ -12,6 +12,8 @@ import nft8 from "./img/nft8.png"
 import nft9 from "./img/nft9.png"
 import coin from "./img/coin.png"
 
+import Navbar from './components/Navbar';
+
 
 import Camera from './components/Camera';
 import { Canvas } from '@react-three/fiber';
@@ -19,16 +21,30 @@ import { OrbitControls } from '@react-three/drei';
 import Lights from './components/Lights';
 import { Scene } from './components/Scene';
 import { Suspense } from 'react';
+import imgMenu from "./img/menu-btn.png"
 
 function App() {
+
+  const menuHamburger = () => {
+    document.querySelector(".menu-hamburger").scrollIntoView();
+  };
+
+
+  const navLinks = () => {
+    document.querySelector(".menu-hamburger").scrollIntoView();
+  };
+
   return (
     <>
       <div>
+
+<Navbar></Navbar>
+      
      
 
 <div
 className='Container'
-style={   {width: "100vw", height: "90vh"} }
+style={   {width: "100vw", height: "80vh"} }
 >
 
   <Canvas>
@@ -47,6 +63,7 @@ style={   {width: "100vw", height: "90vh"} }
 
 
         <div className="section1">
+         
          
 
         
@@ -186,7 +203,6 @@ style={   {width: "100vw", height: "90vh"} }
 
 <div className="section-faq">
 
-  <h3>Faq</h3>
   
 <div class="wrapper">
   
